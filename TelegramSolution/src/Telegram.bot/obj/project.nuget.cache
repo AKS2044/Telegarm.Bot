@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "pHVWumGAUViqJ6sj93LHoe9Go4Gzsl9hs7w6m4BcvD9eP/4uqY5A+3Vu9IG9dpXe9v25RbJa/18v6Tu9MJS5FQ==",
+  "dgSpecHash": "bNKOQc5DS9TA0/YeQfY8tClR7Sz/wJfEoF7Q42En+9Li1sKpHJdLl6uEpqm4aqdmWjdRBmdda4BgqI/HtB0Acg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gennadij\\Documents\\GitHub\\Telegarm.Bot\\TelegramSolution\\src\\Telegram.bot\\Telegram.bot.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Gennadij\\Documents\\GitHub\\Telegarm.Bot\\TelegramSolution\\src\\Telegram.Bot\\TelegramBot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gennadij\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Gennadij\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512",
+    "C:\\Users\\Gennadij\\.nuget\\packages\\telegram.bot\\17.0.0\\telegram.bot.17.0.0.nupkg.sha512",
+    "C:\\Users\\Gennadij\\.nuget\\packages\\telegram.bot.extensions.polling\\1.0.2\\telegram.bot.extensions.polling.1.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

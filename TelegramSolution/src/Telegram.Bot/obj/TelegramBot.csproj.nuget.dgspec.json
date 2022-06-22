@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gennadij\\Documents\\GitHub\\Telegarm.Bot\\TelegramSolution\\src\\Telegram.Bot\\Telegram.Bot.csproj": {}
+    "C:\\Users\\Gennadij\\Documents\\GitHub\\Telegarm.Bot\\TelegramSolution\\src\\Telegram.Bot\\TelegramBot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gennadij\\Documents\\GitHub\\Telegarm.Bot\\TelegramSolution\\src\\Telegram.Bot\\Telegram.Bot.csproj": {
+    "C:\\Users\\Gennadij\\Documents\\GitHub\\Telegarm.Bot\\TelegramSolution\\src\\Telegram.Bot\\TelegramBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gennadij\\Documents\\GitHub\\Telegarm.Bot\\TelegramSolution\\src\\Telegram.Bot\\Telegram.Bot.csproj",
-        "projectName": "Telegram.Bot",
-        "projectPath": "C:\\Users\\Gennadij\\Documents\\GitHub\\Telegarm.Bot\\TelegramSolution\\src\\Telegram.Bot\\Telegram.Bot.csproj",
+        "projectUniqueName": "C:\\Users\\Gennadij\\Documents\\GitHub\\Telegarm.Bot\\TelegramSolution\\src\\Telegram.Bot\\TelegramBot.csproj",
+        "projectName": "TelegramBot",
+        "projectPath": "C:\\Users\\Gennadij\\Documents\\GitHub\\Telegarm.Bot\\TelegramSolution\\src\\Telegram.Bot\\TelegramBot.csproj",
         "packagesPath": "C:\\Users\\Gennadij\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Gennadij\\Documents\\GitHub\\Telegarm.Bot\\TelegramSolution\\src\\Telegram.Bot\\obj\\",
         "projectStyle": "PackageReference",
@@ -39,6 +39,20 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Telegram.Bot": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            },
+            "Telegram.Bot.Extensions.Polling": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
